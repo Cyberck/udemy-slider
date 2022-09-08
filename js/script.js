@@ -325,7 +325,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let slideIndex = 1; 
   let offset = 0;     
 
-  if (slides.length > 10) {
+  if (slides.length < 10) {
     total.textContent = `0${slides.length}`;    
     current.textContent = `0${slideIndex}`;    
   } else {
